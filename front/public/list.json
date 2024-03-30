@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "name":"story book",
+        "title":"cdn-story",
+        "price":0,
+        "category":"Free",
+        "image":"https://cdn-icons-png.freepik.com/512/562/562132.png"
+    },
+    {
+        "id":2,
+        "name":"Music book",
+        "title":"cdn-story",
+        "price":100,
+        "category":"Song",
+        "image":"https://librarygenesis.net/wp-content/uploads/2018/11/library-genesis.jpg"
+    },
+    {
+        "id":3,
+        "name":"Music book",
+        "title":"cdn-story",
+        "price":20,
+        "category":"Free",
+        "image":"https://cdn.wpmeducation.com/53544f/9e425e4246/D29B-4752-48E6-B8DE-FCFC.png"
+    },
+    {
+        "id":4,
+        "name":"food book",
+        "title":"cdn-story",
+        "price":200,
+        "category":"food",
+        "image":"https://clipart-library.com/img1/673564.gif"
+    },
+    {
+        "id":5,
+        "name":"food book",
+        "title":"cdn-story",
+        "price":0,
+        "category":"Free",
+        "image":"https://clipart-library.com/img1/673564.gif"
+    }
+]
