@@ -1,6 +1,27 @@
-import React from "react";
-
+import React, { useEffect, useState } from "react";
 function Cards({ item }) {
+  var [st, setst] = useState("Download")
+  useEffect(() => {
+    if (item.category !== "Free") {
+      setst("Buy now");
+    }})
+  
+  const handleDownload = () => {
+    // Define the URL of the PDF file
+    const pdfUrl = '../assets/th.pdf'; // Replace this with the actual URL of your PDF file
+    
+    // Create a link element
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'down.pdf'; // Set the file name for download
+    document.body.appendChild(link);
+    
+    // Trigger the click event of the link to start download
+    link.click();
+    
+ 
+  };
+
   return (
     <>
       <div className="mt-4 p-3  ">
@@ -17,7 +38,12 @@ function Cards({ item }) {
             <div className="card-actions justify-between">
               <div className="badge rounded-lg  badge-outline">₹ {item.price}</div>
               <div className=" cursor-pointer  px-2 py-1 rounded-lg border-zinc-500 border-[1px] hover:bg-zinc-800 hover:text-zinc-50 duration-200">
-                Buy Now
+              {st === "Download" ? (
+  <button onClick={handleDownload}>{st}</button>
+) : (
+  <button onClick={() => { alert("404 ") }}>{st}</button>
+)}
+                
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@ import Logout from './Logout'
 
 const Nav = () => {
     const [authUser, setAuthUser] = useAuth()
-    console.log(authUser);
+    // console.log(authUser);
 
     const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light')
     const element = document.documentElement
@@ -44,7 +44,7 @@ const Nav = () => {
     const navItem = <> <li><a href='/'>Home</a></li>
         <li><a href='/course'>course</a></li>
         <li><a href='/contact'>contact</a></li>
-        <li><a>about</a></li>
+        <li><a href='https://www.justdial.com/cms/career-opportunities#how_it_work'>about</a></li>
     </>
     return (
         <div className={`navbar dark:bg-slate-800 dark:text-white  bg-base-100 w-full fixed top-0 z-10 md:px-20 ${sticky ? " bg-[#08080810] backdrop-blur-sm duration-300 ease-in-out" : " "
