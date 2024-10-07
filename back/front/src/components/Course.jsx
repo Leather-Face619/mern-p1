@@ -28,13 +28,7 @@ const Course = () => {
             <span className="text-pink-500"> Here! :</span>
           </h1>
           <p className="mt-12">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-            assumenda? Repellendus, iste corrupti? Tempore laudantium
-            repellendus accusamus accusantium sed architecto odio, nisi expedita
-            quas quidem nesciunt debitis dolore non aspernatur praesentium
-            assumenda sint quibusdam, perspiciatis, explicabo sequi fugiat amet
-            animi eos aut. Nobis quisquam reiciendis sunt quis sed magnam
-            consequatur!
+            Welcome to our enchanting world of books! Our bookstore is a treasure trove of knowledge, imagination, and adventure. Here, you can embark on journeys through new ideas, stories, and experiences with every turn of a page. Whether you're a lover of literature, a curious scientist, or a mystery enthusiast, we have something for every reader. Come, dive into this ocean of words and let your mind explore new dimensions. Our books promise to open new doors for you. So, let's begin your journey and lose yourself in this wonderful world of books!
           </p>
           <Link to="/">
             <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
@@ -42,7 +36,7 @@ const Course = () => {
             </button>
           </Link>
         </div>
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-4 ">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
           {book.map((item) => (
             <Cards key={item.id} item={item} />
           ))}

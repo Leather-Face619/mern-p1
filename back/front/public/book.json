@@ -1,0 +1,542 @@
+[
+    {
+      "author": "Chinua Achebe",
+      "image": "things-fall-apart.jpg",
+      "language": "English",
+      "name": "Things Fall Apart",
+      "title": "A World Unraveling",
+      "category": "Classic Literature",
+      "price": 250
+    },
+    {
+      "author": "Hans Christian Andersen",
+      "image": "fairy-tales.jpg",
+      "language": "Danish",
+      "name": "Fairy tales",
+      "title": "Enchanted Stories",
+      "category": "Free",
+      "price": 0
+    },
+    {
+      "author": "Dante Alighieri",
+      "image": "the-divine-comedy.jpg",
+      "language": "Italian",
+      "name": "The Divine Comedy",
+      "title": "Journey Through the Afterlife",
+      "category": "Poetry",
+      "price": 300
+    },
+    {
+      "author": "Unknown",
+      "image": "the-epic-of-gilgamesh.jpg",
+      "language": "Akkadian",
+      "name": "The Epic Of Gilgamesh",
+      "title": "The Immortal King",
+      "category": "Classic Literature",
+      "price": 200
+    },
+    {
+      "author": "Unknown",
+      "image": "the-book-of-job.jpg",
+      "language": "Hebrew",
+      "name": "The Book Of Job",
+      "title": "Trials of Faith",
+      "category": "Free",
+      "price": 0
+    },
+    {
+      "author": "Unknown",
+      "image": "one-thousand-and-one-nights.jpg",
+      "language": "Arabic",
+      "name": "One Thousand and One Nights",
+      "title": "Tales of the Arabian Nights",
+      "category": "Fiction",
+      "price": 280
+    },
+    {
+      "author": "Unknown",
+      "image": "njals-saga.jpg",
+      "language": "Old Norse",
+      "name": "Njál's Saga",
+      "title": "Blood Feud in Iceland",
+      "category": "Classic Literature",
+      "price": 220
+    },
+    {
+      "author": "Jane Austen",
+      "image": "pride-and-prejudice.jpg",
+      "language": "English",
+      "name": "Pride and Prejudice",
+      "title": "First Impressions",
+      "category": "Fiction",
+      "price": 240
+    },
+    {
+      "author": "Honoré de Balzac",
+      "image": "le-pere-goriot.jpg",
+      "language": "French",
+      "name": "Le Père Goriot",
+      "title": "The Sacrifice of Fatherhood",
+      "category": "Classic Literature",
+      "price": 230
+    },
+    {
+      "author": "Samuel Beckett",
+      "image": "molloy-malone-dies-the-unnamable.jpg",
+      "language": "French, English",
+      "name": "Molloy, Malone Dies, The Unnamable, the trilogy",
+      "title": "Voices in the Void",
+      "category": "Fiction",
+      "price": 350
+    },
+    {
+      "author": "Giovanni Boccaccio",
+      "image": "the-decameron.jpg",
+      "language": "Italian",
+      "name": "The Decameron",
+      "title": "Tales of Love and Fortune",
+      "category": "Classic Literature",
+      "price": 270
+    },
+    {
+      "author": "Jorge Luis Borges",
+      "image": "ficciones.jpg",
+      "language": "Spanish",
+      "name": "Ficciones",
+      "title": "Labyrinths of the Mind",
+      "category": "Fiction",
+      "price": 210
+    },
+    {
+      "author": "Emily Brontë",
+      "image": "wuthering-heights.jpg",
+      "language": "English",
+      "name": "Wuthering Heights",
+      "title": "Storm on the Moors",
+      "category": "Classic Literature",
+      "price": 200
+    },
+    {
+      "author": "Albert Camus",
+      "image": "l-etranger.jpg",
+      "language": "French",
+      "name": "The Stranger",
+      "title": "The Outsider",
+      "category": "Free",
+      "price": 0
+    },
+    {
+      "author": "Paul Celan",
+      "image": "poems-paul-celan.jpg",
+      "language": "German",
+      "name": "Poems",
+      "title": "Echoes of Darkness",
+      "category": "Free",
+      "price": 0
+    },
+    {
+      "author": "Louis-Ferdinand Céline",
+      "image": "voyage-au-bout-de-la-nuit.jpg",
+      "language": "French",
+      "name": "Journey to the End of the Night",
+      "title": "Voyage into Darkness",
+      "category": "Fiction",
+      "price": 240
+    },
+    {
+      "author": "Miguel de Cervantes",
+      "image": "don-quijote-de-la-mancha.jpg",
+      "language": "Spanish",
+      "name": "Don Quijote De La Mancha",
+      "title": "The Ingenious Gentleman",
+      "category": "Classic Literature",
+      "price": 280
+    },
+    {
+      "author": "Geoffrey Chaucer",
+      "image": "the-canterbury-tales.jpg",
+      "language": "English",
+      "name": "The Canterbury Tales",
+      "title": "Pilgrims' Stories",
+      "category": "Poetry",
+      "price": 260
+    },
+    {
+      "author": "Anton Chekhov",
+      "image": "stories-of-anton-chekhov.jpg",
+      "language": "Russian",
+      "name": "Stories",
+      "title": "Slices of Russian Life",
+      "category": "Fiction",
+      "price": 220
+    },
+    {
+      "author": "Joseph Conrad",
+      "image": "nostromo.jpg",
+      "language": "English",
+      "name": "Nostromo",
+      "title": "A Tale of the Seaboard",
+      "category": "Classic Literature",
+      "price": 230
+    },
+    {
+      "author": "Charles Dickens",
+      "image": "great-expectations.jpg",
+      "language": "English",
+      "name": "Great Expectations",
+      "title": "Pip's Journey",
+      "category": "Classic Literature",
+      "price": 250
+    },
+    {
+      "author": "Denis Diderot",
+      "image": "jacques-the-fatalist.jpg",
+      "language": "French",
+      "name": "Jacques the Fatalist",
+      "title": "Master and Servant",
+      "category": "Fiction",
+      "price": 200
+    },
+    {
+      "author": "Alfred Döblin",
+      "image": "berlin-alexanderplatz.jpg",
+      "language": "German",
+      "name": "Berlin Alexanderplatz",
+      "title": "The Story of Franz Biberkopf",
+      "category": "Fiction",
+      "price": 270
+    },
+    {
+      "author": "Fyodor Dostoevsky",
+      "image": "crime-and-punishment.jpg",
+      "language": "Russian",
+      "name": "Crime and Punishment",
+      "title": "The Conscience of a Killer",
+      "category": "Classic Literature",
+      "price": 280
+    },
+    {
+      "author": "Fyodor Dostoevsky",
+      "image": "the-idiot.jpg",
+      "language": "Russian",
+      "name": "The Idiot",
+      "title": "The Prince of Compassion",
+      "category": "Classic Literature",
+      "price": 260
+    },
+    {
+      "author": "Fyodor Dostoevsky",
+      "image": "the-possessed.jpg",
+      "language": "Russian",
+      "name": "The Possessed",
+      "title": "Demons",
+      "category": "Classic Literature",
+      "price": 270
+    },
+    {
+      "author": "Fyodor Dostoevsky",
+      "image": "the-brothers-karamazov.jpg",
+      "language": "Russian",
+      "name": "The Brothers Karamazov",
+      "title": "A Family's Fate",
+      "category": "Classic Literature",
+      "price": 300
+    },
+    {
+      "author": "George Eliot",
+      "image": "middlemarch.jpg",
+      "language": "English",
+      "name": "Middlemarch",
+      "title": "A Study of Provincial Life",
+      "category": "Classic Literature",
+      "price": 290
+    },
+    {
+      "author": "Ralph Ellison",
+      "image": "invisible-man.jpg",
+      "language": "English",
+      "name": "Invisible Man",
+      "title": "Unseen in America",
+      "category": "Fiction",
+      "price": 240
+    },
+    {
+      "author": "Euripides",
+      "image": "medea.jpg",
+      "language": "Greek",
+      "name": "Medea",
+      "title": "A Woman Scorned",
+      "category": "Free",
+      "price": 0
+    },
+    {
+      "author": "William Faulkner",
+      "image": "absalom-absalom.jpg",
+      "language": "English",
+      "name": "Absalom, Absalom!",
+      "title": "The Sutpen Legacy",
+      "category": "Fiction",
+      "price": 260
+    },
+    {
+      "author": "William Faulkner",
+      "image": "the-sound-and-the-fury.jpg",
+      "language": "English",
+      "name": "The Sound and the Fury",
+      "title": "The Fall of the Compson Family",
+      "category": "Classic Literature",
+      "price": 250
+    },
+    {
+      "author": "Gustave Flaubert",
+      "image": "madame-bovary.jpg",
+      "language": "French",
+      "name": "Madame Bovary",
+      "title": "Provincial Dreams",
+      "category": "Classic Literature",
+      "price": 230
+    },
+    {
+      "author": "Gustave Flaubert",
+      "image": "l-education-sentimentale.jpg",
+      "language": "French",
+      "name": "Sentimental Education",
+      "title": "A Young Man's Passions",
+      "category": "Classic Literature",
+      "price": 240
+    },
+    {
+      "author": "Federico García Lorca",
+      "image": "gypsy-ballads.jpg",
+      "language": "Spanish",
+      "name": "Gypsy Ballads",
+      "title": "Romancero Gitano",
+      "category": "Free",
+      "price": 0
+    },
+    {
+      "author": "Gabriel García Márquez",
+      "image": "one-hundred-years-of-solitude.jpg",
+      "language": "Spanish",
+      "name": "One Hundred Years of Solitude",
+      "title": "The Buendía Saga",
+      "category": "Fiction",
+      "price": 280
+    },
+    {
+      "author": "Gabriel García Márquez",
+      "image": "love-in-the-time-of-cholera.jpg",
+      "language": "Spanish",
+      "name": "Love in the Time of Cholera",
+      "title": "Eternal Love",
+      "category": "Fiction",
+      "price": 270
+    },
+    {
+      "author": "Johann Wolfgang von Goethe",
+      "image": "faust.jpg",
+      "language": "German",
+      "name": "Faust",
+      "title": "The Devil's Bargain",
+      "category": "Classic Literature",
+      "price": 260
+    },
+    {
+      "author": "Nikolai Gogol",
+      "image": "dead-souls.jpg",
+      "language": "Russian",
+      "name": "Dead Souls",
+      "title": "Chichikov's Journey",
+      "category": "Classic Literature",
+      "price": 240
+    },
+    {
+      "author": "Günter Grass",
+      "image": "the-tin-drum.jpg",
+      "language": "German",
+      "name": "The Tin Drum",
+      "title": "Oskar's Story",
+      "category": "Fiction",
+      "price": 270
+    },
+    {
+      "author": "João Guimarães Rosa",
+      "image": "the-devil-to-pay-in-the-backlands.jpg",
+      "language": "Portuguese",
+      "name": "The Devil to Pay in the Backlands",
+      "title": "Grande Sertão: Veredas",
+      "category": "Fiction",
+      "price": 250
+    },
+    {
+      "author": "Knut Hamsun",
+      "image": "hunger.jpg",
+      "language": "Norwegian",
+      "name": "Hunger",
+      "title": "Starving Artist",
+      "category": "Classic Literature",
+      "price": 210
+    },
+    {
+      "author": "Ernest Hemingway",
+      "image": "the-old-man-and-the-sea.jpg",
+      "language": "English",
+      "name": "The Old Man and the Sea",
+      "title": "Santiago's Struggle",
+      "category": "Fiction",
+      "price": 200
+    },
+    {
+      "author": "Homer",
+      "image": "the-iliad-of-homer.jpg",
+      "language": "Greek",
+      "name": "Iliad",
+      "title": "The Wrath of Achilles",
+      "category": "Classic Literature",
+      "price": 280
+    },
+    {
+      "author": "Homer",
+      "image": "the-odyssey-of-homer.jpg",
+      "language": "Greek",
+      "name": "Odyssey",
+      "title": "The Journey Home",
+      "category": "Classic Literature",
+      "price": 280
+    },
+    {
+      "author": "Henrik Ibsen",
+      "image": "a-Dolls-house.jpg",
+      "language": "Norwegian",
+      "name": "A Doll's House",
+      "title": "Nora's Awakening",
+      "category": "Free",
+      "price": 0
+    },
+    {
+      "author": "James Joyce",
+      "image": "ulysses.jpg",
+      "language": "English",
+      "name": "Ulysses",
+      "title": "A Day in Dublin",
+      "category": "Classic Literature",
+      "price": 300
+    },
+    {
+      "author": "Franz Kafka",
+      "image": "stories-of-franz-kafka.jpg",
+      "language": "German",
+      "name": "Stories",
+      "title": "Metamorphoses",
+      "category": "Fiction",
+      "price": 230
+    },
+    {
+      "author": "Franz Kafka",
+      "image": "the-trial.jpg",
+      "language": "German",
+      "name": "The Trial",
+      "title": "Josef K.'s Nightmare",
+      "category": "Fiction",
+      "price": 240
+    },
+    {
+      "author": "Franz Kafka",
+      "image": "the-castle.jpg",
+      "language": "German",
+      "name": "The Castle",
+      "title": "K.'s Quest",
+      "category": "Fiction",
+      "price": 250
+    },
+    {
+      "author": "Kālidāsa",
+      "image": "the-recognition-of-shakuntala.jpg",
+      "language": "Sanskrit",
+      "name": "The recognition of Shakuntala",
+      "title": "A Love Forgotten",
+      "category": "Free",
+      "price": 0
+    },
+    {
+      "author": "Yasunari Kawabata",
+      "image": "the-sound-of-the-mountain.jpg",
+      "language": "Japanese",
+      "name": "The Sound of the Mountain",
+      "title": "Echoes of Age",
+      "category": "Fiction",
+      "price": 220
+    },
+    {
+      "author": "Nikos Kazantzakis",
+      "image": "zorba-the-greek.jpg",
+      "language": "Greek",
+      "name": "Zorba the Greek",
+      "title": "Dance of Life",
+      "category": "Fiction",
+      "price": 230
+    },
+    {
+      "author": "D. H. Lawrence",
+      "image": "sons-and-lovers.jpg",
+      "language": "English",
+      "name": "Sons and Lovers",
+      "title": "Paul Morel's Struggle",
+      "category": "Classic Literature",
+      "price": 240
+    },
+    {
+      "author": "Halldór Laxness",
+      "image": "independent-people.jpg",
+      "language": "Icelandic",
+      "name": "Independent People",
+      "title": "Bjartur of Summerhouses",
+      "category": "Fiction",
+      "price": 260
+    },
+    {
+      "author": "Giacomo Leopardi",
+      "image": "poems-giacomo-leopardi.jpg",
+      "language": "Italian",
+      "name": "Poems",
+      "title": "Canti",
+      "category": "Fiction",
+      "price": 200
+    },
+    {
+      "author": "Doris Lessing",
+      "image": "the-golden-notebook.jpg",
+      "language": "English",
+      "name": "The Golden Notebook",
+      "title": "Anna Wulf's Journals",
+      "category": "Fiction",
+      "price": 270
+    },
+    {
+      "author": "Astrid Lindgren",
+      "image": "pippi-longstocking.jpg",
+      "language": "Swedish",
+      "name": "Pippi Longstocking",
+      "title": "The Strongest Girl in the World",
+      "category": "Free",
+      "price": 0
+    },
+    {
+      "author": "Lu Xun",
+      "image": "diary-of-a-madman.jpg",
+      "language": "Chinese",
+      "name": "Diary of a Madman",
+      "title": "Confessions of Insanity",
+      "category": "Free",
+      "price": 0
+    },
+    {
+      "author": "Naguib Mahfouz",
+      "image": "https://m.media-amazon.com/images/I/51Zy0Ue-uxL._AC_UF1000,1000_QL80_.jpg",
+      "language": "Arabic",
+      "name": "Children of Gebelawi",
+      "title": "Generations of the Alley",
+      "category": "Fiction",
+      "price": 240
+    }
+  ]
