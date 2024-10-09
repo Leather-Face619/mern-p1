@@ -12,9 +12,7 @@ const Banner = () => {
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-              et totam. Tempora amet atque expedita, quae corrupti totam sed
-              pariatur corporis at veniam est voluptas animi!
+              Welcome to our bookstore! Here you can immerse yourself in a world of knowledge and imagination. Every book is a new journey, a new experience. Come and discover your favorite books with us.
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg

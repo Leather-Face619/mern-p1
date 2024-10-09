@@ -29,10 +29,15 @@ function Cards({ item }) {
     setShowQR(true);
   };
 
+  const handleLearnMore = () => {
+    const wikipediaUrl = `https://en.wikipedia.org/wiki/${encodeURIComponent(item.name)}`;
+    window.open(wikipediaUrl, '_blank');
+  };
+
   return (
     <>
-      <div className="max-w-sm rounded overflow-hidden shadow-lg bg-white dark:bg-gray-800 transition-all duration-300 ease-in-out hover:shadow-xl hover:bg-gray-100 dark:hover:bg-gray-700 hover:scale-105">
-        <img className="w-full h-48 object-cover" src={`./src/assets/images/${item.image}`} alt={item.image} />
+      <div className="max-w-sm  rounded overflow-hidden shadow-lg bg-white dark:bg-gray-800 transition-all duration-300 ease-in-out hover:shadow-xl hover:bg-gray-100 dark:hover:bg-gray-700 hover:scale-105">
+        <img className="w-full h-[500px] object-cover" src={`./src/assets/images/${item.image}`} alt={item.image} />
         
         <div className="px-6 py-4">
           <div className="font-bold text-xl mb-2 text-gray-800 dark:text-white">{item.name}</div>
@@ -48,12 +53,18 @@ function Cards({ item }) {
           <span className="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">₹ {item.price}</span>
         </div>
         
-        <div className="px-6 pb-4 mt-4">
+        <div className="px-6 pb-4 mt-4 flex justify-between">
           <button 
             onClick={st === "Download" ? handleDownload : handleBuyNow}
-            className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out"
           >
             {st}
+          </button>
+          <button 
+            onClick={handleLearnMore}
+            className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out"
+          >
+            Learn More
           </button>
         </div>
       </div>

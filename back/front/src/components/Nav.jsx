@@ -5,6 +5,7 @@ import Logout from './Logout'
 
 const Nav = () => {
     const [authUser, setAuthUser] = useAuth()
+    const [searchQuery, setSearchQuery] = useState('')
     // console.log(authUser);
 
     const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light')
@@ -41,10 +42,17 @@ const Nav = () => {
 
     }, [theme])
 
+    const handleSearch = (e) => {
+        e.preventDefault()
+        // Add search implementation here
+        console.log('Search query:', searchQuery)
+        // For example, you can make an API call here or display search results
+    }
+
     const navItem = <> <li><a href='/'>Home</a></li>
-        <li><a href='/course'>course</a></li>
-        <li><a href='/contact'>contact</a></li>
-        <li><a href='https://www.justdial.com/cms/career-opportunities#how_it_work'>about</a></li>
+        <li><a href='/course'>Course</a></li>
+        <li><a href='/contact'>Contact</a></li>
+        <li><a href='https://www.justdial.com/cms/career-opportunities#how_it_work'>About</a></li>
     </>
     return (
         <div className={`navbar dark:bg-slate-800 dark:text-white  bg-base-100 w-full fixed top-0 z-10 md:px-20 ${sticky ? " bg-[#08080810] backdrop-blur-sm duration-300 ease-in-out" : " "
@@ -56,18 +64,27 @@ const Nav = () => {
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 capitalize rounded-box w-52">{navItem}</ul>
                 </div>
-                <a className="btn uppercase text-ml ">book store</a>
+                <a className="btn uppercase text-ml " href="/">Book Store</a>
             </div>
             <div className="navbar-end">
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal capitalize px-1">{navItem}</ul>
                 </div>
                 <div className='hidden md:block '>
-
-                    <label className="input input-bordered flex items-center gap-2">
-                        <input type="text" className="grow" placeholder="Search" />
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
-                    </label>
+                    <form onSubmit={handleSearch}>
+                        <label className="input input-bordered flex items-center gap-2">
+                            <input 
+                                type="text" 
+                                className="grow" 
+                                placeholder="Search" 
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
+                            />
+                            <button type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-4 h-4 opacity-70"><path fillRule="evenodd" d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z" clipRule="evenodd" /></svg>
+                            </button>
+                        </label>
+                    </form>
                 </div>
                 <label className="swap swap-rotate ml-4">
                     {/* this hidden checkbox controls the state */}
